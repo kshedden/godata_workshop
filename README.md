@@ -20,12 +20,12 @@ read and understand.  On the other hand, this simplicity means that
 it can be necessary to write more "boilerplate code" than in other languages.
 Some people feel that it is harder to develop an an "abstraction" of the problem
 that you are trying to solve when using Go, but other people argue that Go supports
-abstractions, just in a different way than, say, C++ or Java.
-While
+abstractions, just in a different way. While
 Go is much faster than Python, it is not quite as fast as C, C++, or Rust.
 
 At present, Go is one of the 10 most used programming lanuages,
-according to Tiobe.  However it is not commonly encountered in academic or research settings,
+according to [Tiobe](http://tiobe.com/tiobe-index).
+However it is not commonly encountered in academic or research settings,
 especially in data science.  This may be due to the success of the Python/C++
 ecosystem (using C++ to implement algorithms and Python to script them).
 However it is not uncommon to encounter tasks where no appropriate C++ library routine exists,

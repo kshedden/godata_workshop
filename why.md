@@ -23,7 +23,7 @@ of the features that describe Go:
 
 * Strongly typed, with a provision called "interfaces" for semi or full dynamic typing
 
-* Source files compile to static native binaries (alse can create libraries)
+* Source files compile to static native binaries (also can create libraries)
 
 * Simple, minimalist, robust, fast tools
 
@@ -32,7 +32,7 @@ of the features that describe Go:
 * Comprehensive and robust standard library
 
 * No "metaprogramming", generics, parametric polymorphism, algebraic types,
-and other concepts that some people consider to be too "magical".
+and other features that some people consider to be too "magical".
 
 * The language syntax is not extensible, so everyone's code should look similar.
 
@@ -51,7 +51,7 @@ demand on the system (memory and CPU)
 * Distributed "services" (microservices)
 
 * Code that "less advanced" programmers can learn to read, write, and maintain -- most people
-can become an "expert" in Go within a year, other lower-level languages may take much longer to master.
+can become an "expert" in Go within a year or less, other lower-level languages may take much longer to master.
 
 * Code that can be statically analyzed for correctness
 
