@@ -79,7 +79,7 @@ Go resources
 
 * The Go project [wiki](https://github.com/golang/go/wiki)
 
-* [High performance Go)[https://dave.cheney.net/high-performance-go]
+* [High performance Go](https://dave.cheney.net/high-performance-go)
 
 * Rob Pike Go talks on youtube: [Another Golang at language
 design](https://www.youtube.com/watch?v=7VcArS4Wpqk), [Simplicity is
