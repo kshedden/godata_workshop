@@ -4,18 +4,24 @@ Go for data processing
 This site contains materials for a workshop on using
 [Go](http://golang.org) for data processing.
 
-Some subjective [comments](why.md) on why you might want to learn Go.
+Here are some subjective [comments](why.md) on why you might want to learn Go.
 
 Go is an excellent "utility language" that is being adopted by organizations that
 manage large volumes of data.  It is also being used to develop tools for data
-management and system maintenance.  Kubernetes and Docker are written in Go.
+management and system maintenance.  Important utilities for maintaining cloud
+infrastructure such as [Kubernetes](http://kubernetes.io) and
+[Docker](http://docker.com) are written in Go.
 
 Every programming language involves tradeoffs.
 Go is stricter and simpler than Python, but less strict than Rust and less
 complex than either Rust or Julia.  The simplicity of Go makes it easy
 to maintain and refactor Go code, and generally makes Go code easy to
 read and understand.  On the other hand, this simplicity means that
-it can be necessary to write some "boilerplate code".  Furthermore, while
+it can be necessary to write more "boilerplate code" than in other languages.
+Some people feel that it is harder to develop an an "abstraction" of the problem
+that you are trying to solve when using Go, but other people argue that Go supports
+abstractions, but just in a different way than, say, C++ or Java.
+Furthermore, while
 Go is much faster than Python, it is not quite as fast as C, C++, or Rust.
 
 At present, Go is one of the 10 most used programming lanuages,
