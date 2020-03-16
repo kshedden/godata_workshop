@@ -96,7 +96,7 @@ func saveSheetJSON(sheet *xlsx.Sheet, fname string) {
 }
 
 // saveSheetGob saves the contents of an Excel sheet to the
-// named file, in gzip-compressed json format.
+// named file, in gzip-compressed gob format.
 func saveSheetGob(sheet *xlsx.Sheet, fname string) {
 
 	f, g, enc := notable.GetGobEncoder(fname)
@@ -124,7 +124,7 @@ func saveSheetGob(sheet *xlsx.Sheet, fname string) {
 			trow[j] = row.GetCell(j).Value
 		}
 
-		// Save one row to the output file in CSV format.
+		// Save one row to the output file in Cgob format.
 		if err := enc.Encode(trow); err != nil {
 			panic(err)
 		}
