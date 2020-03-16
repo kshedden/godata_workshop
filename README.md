@@ -20,18 +20,19 @@ read and understand.  On the other hand, this simplicity means that
 it can be necessary to write more "boilerplate code" than in other languages.
 Some people feel that it is harder to develop an an "abstraction" of the problem
 that you are trying to solve when using Go, but other people argue that Go supports
-abstractions, but just in a different way than, say, C++ or Java.
-Furthermore, while
+abstractions, just in a different way than, say, C++ or Java.
+While
 Go is much faster than Python, it is not quite as fast as C, C++, or Rust.
 
 At present, Go is one of the 10 most used programming lanuages,
 according to Tiobe.  However it is not commonly encountered in academic or research settings,
 especially in data science.  This may be due to the success of the Python/C++
-combination (using C++ to implement algorithms and Python to script them).
-However it is not uncommon to encounter tasks where no appropriate C++ routine exists,
+ecosystem (using C++ to implement algorithms and Python to script them).
+However it is not uncommon to encounter tasks where no appropriate C++ library routine exists,
 and where Python would be very slow.  At present, this may be the best
 use-case for Go.  More important than that, learning Go will make anyone a better
-overall programmer.  It will help you understand how computers work,
+overall programmer.  Since it is somewhat closer to the hardware than, say, Python,
+it will help you understand how computers and compilers work,
 and will reveal some of the trade-offs in programming language design.
 
 
@@ -59,11 +60,9 @@ func main() {
 Suppose you save this in a file called `simple.go` in your current
 working directory.  You should be able to run it using the command `go
 run simple.go`.  Alternatively, you can compile it to an executable
-using `go build simple.go`, then run the executable using `simple`.
-
-Difficulties with any of the steps above are likely due to a missing
-or incomplete installation of the Go tool, or to misconfigured
-environment variables such as PATH.
+using `go build simple.go`.  This will produce a binary executable
+called `simple` in your local directory, which you can then run
+using `./simple`.
 
 
 Go resources
